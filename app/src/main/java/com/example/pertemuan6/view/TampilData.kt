@@ -24,3 +24,15 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.text.font.FontFamily
 
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun TampilData(
+    onBackBtnClick: () -> Unit
+){
+    val items = listOf(
+        Pair(stringResource(R.string.nama_lengkap), "Contoh Nama"),
+        Pair(stringResource(R.string.jenis_kelamin), "Lainnya"),
+        Pair(stringResource(R.string.alamat), "Ygyakarta")
+    )
+
+            }
